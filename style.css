@@ -1,0 +1,83 @@
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: image(images/Sadia Islam(2).jpg);
+}
+
+a, p, li {
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245, 71, 178);
+    border-radius: 50px;
+}
+.logo{
+    margin: 2px 1px;
+    padding: 2px 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    color: rgb(245, 71, 178);
+    text-decoration: transparent;
+}
+.logo-typing{
+
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    color: rgb(245, 71, 178);
+    font-style: normal;
+    text-decoration: transparent;
+}
+.logo-typing:hover{
+    color: white;
+    background-color: black;
+}
+li{
+    display: inline-block;
+}
+li a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    color: #fff;
+    border: 200px;
+    border-radius: 50px;
+}
+li a:hover{
+    background: rgb(236, 122, 179);
+    text-transform: uppercase;
+}
+button{
+    font-weight: 100;
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-color: rgb(245, 71, 178);
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(245, 71, 178);
+    background-color: #fff;
+}
